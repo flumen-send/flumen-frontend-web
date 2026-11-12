@@ -42,6 +42,16 @@ npm run e2e           # Playwright against the dev stack
 - The admin app uses its own Cognito app client and origin. Shared code must not import from `src/admin/`.
 - Before downloading an executable or double-extension file, show the warning interstitial (list comes from the backend; don't fork it).
 
+**License headers:** every new source file (`.ts`, `.tsx`, `.js`, `.css`, `.html`) starts with the MPL 2.0 notice:
+
+```ts
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
+```
+
+Don't copy code from projects whose licenses aren't compatible with MPL 2.0.
+
 **TypeScript:** `strict: true`, no `any` (use `unknown` and narrow), no non-null `!` assertions on API data.
 
 ## Workflow

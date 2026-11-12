@@ -9,4 +9,4 @@ Working with Claude Code: see `CLAUDE.md` (and the per-directory `CLAUDE.md` fil
 
 ## License
 
-[MIT](LICENSE). The license covers the code only; it grants no rights to the Flumen name or logo. Vendored Claude Code skills keep their own MIT notices in `.claude/skills/THIRD_PARTY_NOTICES.md`.
+[Mozilla Public License 2.0](LICENSE), the same license Firefox Send used. MPL is file-level copyleft: changes to these files must stay open source under MPL when distributed, while the code can be combined with other code under other licenses. The license grants no rights to the Flumen name or logo. Vendored Claude Code skills keep their own MIT notices in `.claude/skills/THIRD_PARTY_NOTICES.md`.
